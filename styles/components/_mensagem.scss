@@ -1,0 +1,39 @@
+@import '../abstract/variaveis';
+
+#mensagem {
+    text-align: center;
+    margin: 25px 0 25px 0;
+
+    .img-msg-container{
+        border: 0px solid black;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    .texto-mensagem{
+        background-color: $cor-terciaria;
+        border: 0px solid black;
+        font-weight: 300;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        h3 {
+            font-weight: bold;
+            font-size: $tamanho-do-texto / 1.5;
+            margin-bottom: 5px;
+        }
+        h4 {
+            font-weight: 300;
+            font-size: $tamanho-do-texto / 2;
+            margin-bottom: 5px;
+        }
+        p{
+            font-size: $tamanho-do-texto / 2.5;
+            width: 50%;
+        }
+    }
+}
